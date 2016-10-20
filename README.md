@@ -16,6 +16,15 @@ Start a **mysql** server instance
 
 ... where some-mysql is the name you want to assign to your container, my-secret-pw is the password to be set for the MySQL root user and tag is the tag specifying the MySQL version you want. See the list above for relevant tags.
 
+Container shell access and viewing **MySQL logs**:
+    
+    # shell script
+    $ docker exec -it vsamov/mysql-5.1.73:latest bash
+    
+    # view logs
+    $ docker logs vsamov/mysql-5.1.73:latest
+
+
 
 
 
