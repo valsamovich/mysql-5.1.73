@@ -11,11 +11,11 @@ Docker image for MySQL 5.1.73 database based on official [MySQL](https://hub.doc
 
 Start a **mysql** server instance
     
-    # command sceleton
-    $ docker run --name [name-of-image] -e MYSQL_ROOT_PASSWORD=[password] -d [name-of-image]:[tag]
+    # general form
+    $ $ docker run [OPTIONS] IMAGE[:TAG|@DIGEST] [COMMAND] [ARG...]
     
-    # command example
-    $ docker run --name mysql-5.1.73 -e MYSQL_ROOT_PASSWORD=[password] -d -p 3306:3306 vsamov/mysql-5.1.73:latest
+    # example
+    $ docker run -d --name mysql-5.1.73 vsamov/mysql-5.1.73:latest -p 3307:3306 -e MYSQL_ROOT_PASSWORD=[password]
 
 ... where some-mysql is the name you want to assign to your container, my-secret-pw is the password to be set for the MySQL root user and tag is the tag specifying the MySQL version you want. See the list above for relevant tags. If port 3306 is used replace `-p 3306:3306` with `-p 3307:3306`
 
