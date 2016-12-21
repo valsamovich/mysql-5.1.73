@@ -9,7 +9,7 @@ Docker image for MySQL 5.1.73 database based on official [MySQL](https://hub.doc
 
 ## Run 
 
-Start a **mysql** server instance
+Start a **mysql** server instance:
     
     # general form
     $ $ docker run [OPTIONS] IMAGE[:TAG|@DIGEST] [COMMAND] [ARG...]
