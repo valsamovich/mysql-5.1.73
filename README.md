@@ -26,3 +26,8 @@ Container shell access and viewing **MySQL logs**:
     
     # view logs
     $ docker logs vsamov/mysql-5.1.73:latest
+
+Some other usefull commands:
+
+    ## kill the container
+    docker kill [container-id]
