@@ -19,7 +19,7 @@ Start a **mysql** server instance:
 
 ... where some-mysql is the name you want to assign to your container, my-secret-pw is the password to be set for the MySQL root user and tag is the tag specifying the MySQL version you want. See the list above for relevant tags. If port 3306 is used replace `-p 3306:3306` with `-p 3307:3306`
     
-Other**commands**:
+Other **commands**:
 
     ## kill the container
     docker kill [container-id]
@@ -29,3 +29,7 @@ Other**commands**:
     
     # viewing MySQL logs
     $ docker logs vsamov/mysql-5.1.73:latest
+
+## Contribution
+
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a fork, add commits, and [open a pull request](https://github.com/fraction/readme-boilerplate/compare/).
