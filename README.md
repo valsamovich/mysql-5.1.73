@@ -29,7 +29,9 @@ Other **commands**:
     
     # viewing MySQL logs
     $ docker logs vsamov/mysql-5.1.73:latest
-
+    
+    # start exisitng container (often: after Docker Engine update)
+    docker start [CONTAINER ID]
 ## Contribution
 
 Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a fork, add commits, and [open a pull request](https://github.com/fraction/readme-boilerplate/compare/).
