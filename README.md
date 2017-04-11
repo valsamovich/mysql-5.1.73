@@ -4,6 +4,7 @@ Docker image for MySQL 5.1.73 database based on official [MySQL](https://hub.doc
 
 ## Installation
 
+- [Install Docker](https://docs.docker.com/engine/installation/)
 - Run docker commnad to get an image: `docker pull vsamov/mysql-5.1.73`
 - Validate image successfully downloaded: `docker images`
 
